@@ -1,0 +1,175 @@
+.cssColor1{
+    background-color: grey;
+}
+.cssColor2{
+    background-color: blue;
+}
+.cssColor3{
+    background-color: red;
+}
+.commonCssColors{
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.jumbotron{
+    background-color: purple;
+    border-radius: 10px;
+}
+.cssFont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+.cssText{
+    text-align: justify;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+.cssText>p{
+    text-indent: 100px;
+}
+.navBar{
+    background-color: grey;
+}
+.navBar>ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    float:right;
+}
+.navBar>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+.navBar>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.navBar>ul>li:hover{
+    background-color:#fff;
+}
+.navBar>ul>li:hover a{
+    color: grey;
+}
+.navBar>img{
+    height: 54px;
+}
+/* LIst marker position */
+.list-marker-position>ol>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.list-marker-position>ol>li>::marker{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* using image as bullet point */
+.list-icon>ul>li{
+    list-style-image: url(../imgaes/flaticon.png);
+}
+/* list shorthand property */
+.list-shorthand>ul>li{
+    background-color: teal;
+    padding: 20px;
+    margin: 20px;
+    /* list-style-type: decimal;
+    list-style-position: inside;
+    list-style-image: url(../imgaes/flaticon.png); */
+    list-style: decimal inside url(../imgaes/flaticon.png);
+}
+/* EMPTY-CELL TABLE..! */
+.empty-cell-table{
+    empty-cells: hide;
+}
+/* ODD_EVEN Table.. */
+.odd-even-table, odd-even-table th,odd-even-table td{
+    border: 2px solid black;
+    padding: 20px;
+    border-collapse: collapse;
+    color: #fff;
+
+}
+.odd-even-table{
+    background-color: purple;
+}
+.odd-even-table tr:nth-child(even){
+    background-color: blue;
+}
+.odd-even-table tr:hover{
+    background-color: rgb(111, 111, 134);
+}
+.odd-even-table th{
+    background-color: rgb(130, 130, 227);
+}
+.odd-even-table>caption{
+    color: aquamarine;
+    font-weight: bold;
+    caption-side: bottom;
+}
+.odd-even-table td{
+    height: 200px;
+    vertical-align: text-top;
+}
+.layout-table{
+    width: 20%;
+    table-layout: fixed;
+}
+.layout-table td, .layout-table th{
+    overflow: scroll;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: grey;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>img{
+    height: 64px;
+}
+header>nav>ul>li{
+    display:inline-block;
+    padding: 25px;
+}
+header>nav>ul>li:hover{
+    background-color: white;
+}
+header>nav>ul>li>:hover a{
+    color: white;
+    text-decoration: none;
+}
+.banner1{
+    background-color: rgb(233, 111, 11);
+
+}
+.bannerCommonClass{
+    color: grey;
+    padding: 30px;
+    
+    text-align: center;
+}
+
+.bannerCommonClass>h1{
+    font-size:50px ;
+}
+.bannerCommonClass>h1:hover{
+    color: aqua;
+}
+.banner2{
+    background-image: url(../imgaes/pin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

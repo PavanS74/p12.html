@@ -1,0 +1,27 @@
+.logo{
+    background-color: #140650;
+}
+.logo>ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    float:right;
+}
+.logo>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+.logo>ul>li>a{
+    color: #c9410a;
+    text-decoration: dotted;
+    font-weight: bold;
+}
+.logo>ul>li:hover{
+    background-color:rgb(15, 191, 50);
+}
+.logo>ul>li:hover a{
+    color:  rgb(151, 11, 11);
+}
+.logo>img{
+    height: 54px;
+}
